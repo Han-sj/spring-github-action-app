@@ -18,7 +18,7 @@ public class SpringGithubActionAppApplication {
 
     @GetMapping("/")
     public String index(){
-        return  appName + "=" + appVersion;
+        return  appName + "-" + appVersion;
     }
 
     public static void main(String[] args) {
